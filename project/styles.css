@@ -1,0 +1,87 @@
+/* 
+#promoBanner: Styles for the top promotional banner on the website.
+This element is crucial for marketing new offers and announcements. The styles defined below target:
+
+- Background color: Sets a light blue background (#99ccff) to create a visually appealing area that grabs user attention.
+- Color: Sets the text color to white for contrast against the light blue background, ensuring readability.
+- Padding: Adds 20px of padding on all sides to prevent the content inside the banner from feeling cramped.
+- Font size: Increases the font size to 1.5em for enhanced readability of the announcement.
+- Text alignment: Centers the text to maintain visual balance and focus, making the banner more appealing.
+- Border: Adds a 1px solid dark blue border (#0066cc) to delineate the banner from other content sections.
+- Margin: Provides a bottom margin of 10px to create spacing between the banner and subsequent content, improving overall layout.
+*/
+#promoBanner {
+    background-color: #99ccff;
+    color: white;
+    padding: 20px;
+    font-size: 1.5em;
+    text-align: center;
+    border: 1px solid #0066cc;
+    margin-bottom: 10px;
+}
+/* Global Styles */
+body {
+    background-color: #f0f8ff; /* Light blue background for contrast */
+    color: #333; /* Dark text for readability */
+    font-family: Arial, sans-serif; /* Default font */
+}
+
+/* Header Styles */
+header {
+    background-color: #4a90e2; /* Blue header */
+    color: white; /* White text for contrast */
+    padding: 20px;
+    text-align: center;
+}
+
+/* Navigation Bar */
+nav {
+    background-color: #5b2e91; /* Purple navigation bar */
+}
+
+nav a {
+    color: white; /* White links for readability */
+    padding: 15px 20px;
+    text-decoration: none;
+}
+
+nav a.active {
+    color: white; /* Text color */
+    font-weight: bold; /* Make the text bold */
+}
+
+/* Main Content Styles */
+main {
+    padding: 20px;
+}
+
+/* Footer Styles */
+footer {
+    background-color: #4a90e2; /* Blue footer */
+    color: white; /* White text */
+    text-align: center;
+    padding: 10px;
+}
+
+/* Card Styles */
+.card {
+    background-color: #e6e6fa; /* Lavender background for cards */
+    border: 1px solid #5b2e91; /* Purple border */
+    border-radius: 5px;
+    box-shadow: 3px 3px black; /* Shadow effect */
+    width: 100px;
+    height: 160px;
+    line-height: 160px;
+    text-align: center;
+    font-size: 80px;
+}
+
+/* Adjust the colors of the headings */
+h1, h2, h3 {
+    color: #5b2e91; /* Purple headings */
+}
+
+/* Additional styles for spacing and layout */
+p {
+    line-height: 1.6; /* Improve readability */
+}
